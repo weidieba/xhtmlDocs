@@ -1,0 +1,27 @@
+{
+  "name": "vuepressdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  },
+  "dependencies": {
+    "highlight.js": "^10.3.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.5",
+    "xhtml-ui": "^1.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "description": ""
+}
