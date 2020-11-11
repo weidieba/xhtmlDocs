@@ -8,17 +8,17 @@
 <template>
     <!-- 状态按钮 -->
     <div>
-        <xbutton status="default"> 朴素按钮 </xbutton>
-        <xbutton status="primary"> 主要按钮 </xbutton>
-        <xbutton status="success"> 成功按钮 </xbutton>
-        <xbutton status="warning"> 失败按钮 </xbutton>
+        <x-button status="default"> 朴素按钮 </x-button>
+        <x-button status="primary"> 主要按钮 </x-button>
+        <x-button status="success"> 成功按钮 </x-button>
+        <x-button status="warning"> 失败按钮 </x-button>
     </div>
     <!-- 带圆角按钮 -->
     <div class="mt15">
-        <xbutton status="default" plain> 朴素按钮 </xbutton>
-        <xbutton status="primary" plain> 主要按钮 </xbutton>
-        <xbutton status="success" plain> 成功按钮 </xbutton>
-        <xbutton status="warning" plain> 失败按钮 </xbutton>
+        <x-button status="default" plain> 朴素按钮 </x-button>
+        <x-button status="primary" plain> 主要按钮 </x-button>
+        <x-button status="success" plain> 成功按钮 </x-button>
+        <x-button status="warning" plain> 失败按钮 </x-button>
     </div>
 </template>
 
@@ -53,17 +53,17 @@
 <template>
     <!-- 状态按钮 -->
     <div>
-        <xbutton status="default" disabled> 朴素按钮 </xbutton>
-        <xbutton status="primary" disabled> 主要按钮 </xbutton>
-        <xbutton status="success" disabled> 成功按钮 </xbutton>
-        <xbutton status="warning" disabled> 失败按钮 </xbutton>
+        <x-button status="default" disabled> 朴素按钮 </x-button>
+        <x-button status="primary" disabled> 主要按钮 </x-button>
+        <x-button status="success" disabled> 成功按钮 </x-button>
+        <x-button status="warning" disabled> 失败按钮 </x-button>
     </div>
     <!-- 带圆角按钮 -->
     <div class="mt15">
-        <xbutton status="default" plain disabled> 朴素按钮 </xbutton>
-        <xbutton status="primary" plain disabled> 主要按钮 </xbutton>
-        <xbutton status="success" plain disabled> 成功按钮 </xbutton>
-        <xbutton status="warning" plain disabled> 失败按钮 </xbutton>
+        <x-button status="default" plain disabled> 朴素按钮 </x-button>
+        <x-button status="primary" plain disabled> 主要按钮 </x-button>
+        <x-button status="success" plain disabled> 成功按钮 </x-button>
+        <x-button status="warning" plain disabled> 失败按钮 </x-button>
     </div>
 </template>
 
@@ -98,17 +98,17 @@
 <template>
     <!-- 状态按钮 -->
     <div>
-        <xbutton status="default" loading disabled> 朴素按钮 </xbutton>
-        <xbutton status="primary" loading> 主要按钮 </xbutton>
-        <xbutton status="success" loading> 成功按钮 </xbutton>
-        <xbutton status="warning" loading disabled> 失败按钮 </xbutton>
+        <x-button status="default" loading disabled> 朴素按钮 </x-button>
+        <x-button status="primary" loading> 主要按钮 </x-button>
+        <x-button status="success" loading> 成功按钮 </x-button>
+        <x-button status="warning" loading disabled> 失败按钮 </x-button>
     </div>
     <!-- 带圆角按钮 -->
     <div class="mt15">
-        <xbutton status="default" plain loading> 朴素按钮 </xbutton>
-        <xbutton status="primary" plain loading disabled> 主要按钮 </xbutton>
-        <xbutton status="success" plain loading disabled> 成功按钮 </xbutton>
-        <xbutton status="warning" plain loading> 失败按钮 </xbutton>
+        <x-button status="default" plain loading> 朴素按钮 </x-button>
+        <x-button status="primary" plain loading disabled> 主要按钮 </x-button>
+        <x-button status="success" plain loading disabled> 成功按钮 </x-button>
+        <x-button status="warning" plain loading> 失败按钮 </x-button>
     </div>
 </template>
 
@@ -143,17 +143,17 @@
 <template>
     <!-- 状态按钮 -->
     <div>
-        <xbutton status="default"> 朴素按钮 </xbutton>
-        <xbutton status="primary"> 主要按钮 </xbutton>
-        <xbutton status="success"> 成功按钮 </xbutton>
-        <xbutton status="warning"> 失败按钮 </xbutton>
+        <x-button status="default"> 朴素按钮 </x-button>
+        <x-button status="primary"> 主要按钮 </x-button>
+        <x-button status="success"> 成功按钮 </x-button>
+        <x-button status="warning"> 失败按钮 </x-button>
     </div>
     <!-- 带圆角按钮 -->
     <div class="mt15">
-        <xbutton status="default" plain size="large"> 朴素按钮 </xbutton>
-        <xbutton status="primary" plain size="large"> 主要按钮 </xbutton>
-        <xbutton status="success" plain size="large"> 成功按钮 </xbutton>
-        <xbutton status="warning" plain size="large"> 失败按钮 </xbutton>
+        <x-button status="default" plain size="large"> 朴素按钮 </x-button>
+        <x-button status="primary" plain size="large"> 主要按钮 </x-button>
+        <x-button status="success" plain size="large"> 成功按钮 </x-button>
+        <x-button status="warning" plain size="large"> 失败按钮 </x-button>
     </div>
 </template>
 
@@ -187,22 +187,22 @@
 <template>
     <!-- 状态按钮 -->
     <div>
-        <xbutton status="default"> 
+        <x-button status="default"> 
             朴素按钮
-             <xicon icon="x-icon-ice-drink" />
-        </xbutton>
-        <xbutton status="primary"> 
+            <x-icon icon="x-icon-ice-drink" />
+        </x-button>
+        <x-button status="primary"> 
             主要按钮 
-            <xicon icon="x-icon-edit" />
-        </xbutton>
-        <xbutton status="success"> 
+            <x-icon icon="x-icon-edit" />
+        </x-button>
+        <x-button status="success"> 
             成功按钮 
-            <xicon icon="x-icon-milk-tea" />
-        </xbutton>
-        <xbutton status="warning"> 
+            <x-icon icon="x-icon-milk-tea" />
+        </x-button>
+        <x-button status="warning"> 
             失败按钮 
-            <xicon icon="x-icon-coffee" />
-        </xbutton>
+            <x-icon icon="x-icon-coffee" />
+        </x-button>
     </div>
 </template>
 
@@ -237,7 +237,7 @@
 
 | Slot名称  | 说明                             |
 | -------- | -------------------------------- |
-| default  | 默认的slot，作为按钮的内容，如需要icon可以直接xicon标签使用 |
+| default  | 默认的slot，作为按钮的内容，如需要icon可以直接x-icon标签使用 |
 
 
 ### 事件

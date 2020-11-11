@@ -11,6 +11,15 @@ module.exports = {
         ],
         // 为以下路由添加侧边栏
         sidebar: {
+            '/Introduction/': [
+                {
+                    "title": "开发指南",
+                    collapsable: false,
+                    children: [
+                        { title: '快速上手', path:'fast'}
+                    ]
+                }
+            ],
             '/components/': [
                 {
                     "title": "组件",

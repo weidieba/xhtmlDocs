@@ -22,7 +22,7 @@
         </div>
         <div class="demo-block-control" ref="control" @click="isExpanded = !isExpanded">
         <transition name="arrow-slide">
-            <i :class="[iconClass, { 'hovering': hovering }]"></i>
+            <x-icon :icon="iconClass" :class="{ 'hovering': hovering }"/>
         </transition>
         <transition name="text-slide">
             <span v-show="hovering">{{ controlText }}</span>
@@ -128,12 +128,15 @@
       width: 868px;
     }
 
-    i {
+    .x-icon {
+      position: absolute;
       font-size: 16px;
       line-height: 44px;
       transition: 0.3s;
+      color: rgb(211, 220, 230);
       &.hovering {
-        transform: translateX(-40px);
+        color: #409eff;
+        transform: translateX(-60px);
       }
     }
 
@@ -182,8 +185,6 @@ export default {
       langConfig: {
         "hide-text": "隐藏代码",
         "show-text": "显示代码",
-        "button-text": "在线运行",
-        "tooltip-text": "前往 jsfiddle.net 运行此示例"
       }
     }
   },
@@ -217,7 +218,7 @@ export default {
     },
 
     iconClass () {
-      return this.isExpanded ? 'el-icon-caret-top' : 'el-icon-caret-bottom'
+      return this.isExpanded ? 'x-icon-caret-top' : 'x-icon-caret-bottom'
     },
 
     controlText () {
