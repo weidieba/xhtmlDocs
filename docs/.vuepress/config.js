@@ -9,23 +9,22 @@ module.exports = {
                 link: '/'
             }, // 导航条
         ],
-        // 为以下路由添加侧边栏
+        // 为以下路由添加侧边栏 
         sidebar: {
-            '/Introduction/': [
+            '/components/': [
                 {
                     "title": "开发指南",
                     collapsable: false,
                     children: [
-                        { title: '快速上手', path:'fast'}
+                        { title: '快速上手', path:'introduction/fast'}
                     ]
-                }
-            ],
-            '/components/': [
+                },
                 {
                     "title": "组件",
                     collapsable: false,
                     children: [
-                        { title: 'Basic', path:'button'}
+                        { title: 'button', path:'button'},
+                        { title: 'icon', path:'icon'}
                         //...
                         // 每加一个菜单需要在这里也新增一下
                     ]

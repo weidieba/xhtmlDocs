@@ -102,7 +102,7 @@
       max-height: none;
       border-radius: 0;
       line-height: 1.8;
-      color: #ffffff;
+      color: #000000;
       &::before {
         content: none;
       }
