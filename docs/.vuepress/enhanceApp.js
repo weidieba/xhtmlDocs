@@ -28,5 +28,4 @@ export default ({
       Vue.use(module.default)
     })    
   }
-    // Vue.use(xhtmlUi) // 设置为全局组件
 }

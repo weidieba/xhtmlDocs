@@ -40,7 +40,7 @@
 ### Iconos
 
 <ul class="icon-list">
-  <li v-for="name in $icon" :key="name">
+  <li v-for="name in $icon.slice(0,50)" :key="name">
     <span>
       <x-icon :icon="'x-icon-' + name"></x-icon>
       <span class="icon-name">{{'x-icon-' + name}}</span>
