@@ -25,7 +25,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: 'button', path:'button'},
-                        { title: 'icon', path:'icon'}
+                        { title: 'icon', path:'icon'},
+                        { title: 'status-bar', path:'statusbar'}
                         //...
                         // 每加一个菜单需要在这里也新增一下
                     ]
