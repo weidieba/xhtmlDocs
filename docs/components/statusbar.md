@@ -48,7 +48,7 @@
 | 参数      | 说明                             | 类型      | 可选值       | 默认值 |
 | -------- | -------------------------------- | -------- | ----------- | ----- |
 | **content** | 内容，**必选参数** | string | — | — |
-| kind | 主题 | string | success/slight-warning/serious-warning/error/wait/alarm | — |
+| kind | 主题 | string | success/info/warning-outline/error/alarm | — |
 | size | 大小 | string | large/medium | large |
 | center | 是否居中 | boolean | — | false |
 | showCloseIcon | 是否显示关闭图标 | boolean | — | false |
