@@ -3,7 +3,6 @@ module.exports = {
     description: 'ui 库', //描述
     dest: './build', // 设置输出目录
     port: 1234, //端口
-    base:'/xhtmldocs/',
     themeConfig: { //主题配置
         nav: [{
                 text: '主页',
