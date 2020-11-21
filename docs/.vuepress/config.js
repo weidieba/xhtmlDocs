@@ -24,10 +24,22 @@ module.exports = {
                     "title": "组件",
                     collapsable: false,
                     children: [
-                        { title: 'button', path:'button'},
-                        { title: 'icon', path:'icon'},
-                        { title: 'status-bar', path:'statusbar'}
-                        //...
+                        {
+                            "title": "Basic",
+                            collapsable: false,
+                            children: [
+                                { title: 'Button 按钮', path:'basic/button'},
+                                { title: 'Icon 图标', path:'basic/icon'},
+                                { title: 'Status-bar 状态栏', path:'basic/statusbar'}
+                            ]
+                        },
+                        {
+                            "title": "Froms",
+                            collapsable: false,
+                            children: [
+                                { title: 'Radio 单选框', path:'form/radio'},
+                            ]
+                        },
                         // 每加一个菜单需要在这里也新增一下
                     ]
                 }
