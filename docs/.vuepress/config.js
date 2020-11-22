@@ -29,7 +29,8 @@ module.exports = {
                             children: [
                                 { title: 'Button 按钮', path:'basic/button'},
                                 { title: 'Icon 图标', path:'basic/icon'},
-                                { title: 'Status-bar 状态栏', path:'basic/statusbar'}
+                                { title: 'Status-bar 状态栏', path:'basic/statusbar'},
+                                { title: 'Link 文字连接', path:'basic/link'}
                             ]
                         },
                         {
