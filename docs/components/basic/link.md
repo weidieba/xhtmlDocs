@@ -66,8 +66,8 @@
 :::
 </demo-block-demo-block>
 
-## 禁用状态
-文字链接不可用状态。
+## 图标
+带图标的文字链接可增强辨识度。
 
 <demo-block-demo-block>
 ::: slot source
