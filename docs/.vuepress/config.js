@@ -42,6 +42,13 @@ module.exports = {
                                 { title: 'Checkbox 复选框', path:'form/checkbox'},
                             ]
                         },
+                        {
+                            "title": "Notice",
+                            collapsable: false,
+                            children: [
+                                { title: 'Message 消息提示', path:'notice/message'},
+                            ]
+                        },
                         // 每加一个菜单需要在这里也新增一下
                     ]
                 }
