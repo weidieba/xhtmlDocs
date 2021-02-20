@@ -3,7 +3,7 @@ module.exports = {
     description: 'ui 库', //描述
     dest: './build', // 设置输出目录
     port: 1234, //端口
-    base:'/xhtmldocs/',
+    base: '/',
     themeConfig: { //主题配置
         nav: [{
                 text: '主页',
@@ -24,10 +24,24 @@ module.exports = {
                     "title": "组件",
                     collapsable: false,
                     children: [
-                        { title: 'button', path:'button'},
-                        { title: 'icon', path:'icon'},
-                        { title: 'status-bar', path:'statusbar'}
-                        //...
+                        {
+                            "title": "Basic",
+                            collapsable: false,
+                            children: [
+                                { title: 'Button 按钮', path:'basic/button'},
+                                { title: 'Icon 图标', path:'basic/icon'},
+                                { title: 'Status-bar 状态栏', path:'basic/statusbar'},
+                                { title: 'Link 文字连接', path:'basic/link'}
+                            ]
+                        },
+                        {
+                            "title": "Froms",
+                            collapsable: false,
+                            children: [
+                                { title: 'Radio 单选框', path:'form/radio'},
+                                { title: 'Checkbox 复选框', path:'form/checkbox'},
+                            ]
+                        },
                         // 每加一个菜单需要在这里也新增一下
                     ]
                 }

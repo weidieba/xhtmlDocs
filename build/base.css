@@ -59,9 +59,9 @@ a {
 text-decoration: none;
 color: #0067ed;
 }
-a * {
+/* a * {
 cursor: pointer;
-}
+} */
 a:hover {
 text-decoration: none;
 color: #0056c7;
@@ -405,9 +405,9 @@ text-align: left;
 text-align: justify;
 }
 /* text-decoration */
-.tdl {
+/* .tdl {
 text-decoration: underline;
-}
+} */
 .tdn,
 .tdn:hover,
 .tdn a:hover,
