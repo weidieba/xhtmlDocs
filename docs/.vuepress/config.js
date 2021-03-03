@@ -4,6 +4,7 @@ module.exports = {
     dest: './build', // 设置输出目录
     port: 1234, //端口
     base: '/',
+    evergreen: true, // 浏览器兼容性 true 抛弃ie浏览器 增加打包速度和体积
     themeConfig: { //主题配置
         nav: [{
                 text: '主页',

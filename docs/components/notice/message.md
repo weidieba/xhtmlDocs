@@ -1,5 +1,5 @@
 
-# Button组件
+# Message组件
 Message 消息提示
 常用于主动操作后的反馈提示。与 Notification 的区别是后者更多用于系统级通知的被动提醒。
 ## 基础用法
@@ -12,7 +12,7 @@ Message 消息提示
             },
             demo3() {
                 this.$message.success('这是一条错误消息',function() {
-                    alert('回调被触发了');
+                    alert('触发回调');
                 }, 3000);
             },
             demo6() {
