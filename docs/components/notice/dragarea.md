@@ -1,5 +1,5 @@
 
-# dragarea拖拽区
+# dragarea自定义拖拽区
 dragarea拖拽区可以针对元素进行拖拽替换位置
 
 ## 基础用法
