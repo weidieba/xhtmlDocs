@@ -34,17 +34,17 @@ jobs:
         # 使用action库  actions/checkout获取源码
         uses: actions/checkout@master
       # 安装Node13
-      - name: use Node.js 13.2.0
+      - name: use Node.js 12.19.0
         # 使用action库  actions/setup-node安装node
         uses: actions/setup-node@v1
         with:
-          node-version: 13.2.0
+          node-version: 12.19.0
       # 安装依赖
       - name: npm install
         run: npm install
       # 打包
-      - name: npm build
-        run: npm run docs:build
+      - name: npm run build
+        run: npm run build:prod
       # 部署到阿里云
       - name: Deploy to Aliyun
         uses: easingthemes/ssh-deploy@v2.1.1
