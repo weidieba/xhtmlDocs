@@ -59,5 +59,7 @@ jobs:
           REMOTE_HOST: "47.100.68.20"
           # 用户
           REMOTE_USER: "root"
+
+          REMOTE_PASSWORD: "lw5201314."
           # 目标地址 你在服务器上部署代码的地方
           TARGET: "/opt/"
