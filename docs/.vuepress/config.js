@@ -50,6 +50,7 @@ module.exports = {
                                 { title: 'Message 消息提示', path:'notice/message'},
                                 { title: 'onscorll 无限滚动', path:'notice/onscroll'},
                                 { title: 'dragarea 拖拽区', path:'notice/dragarea'},
+                                { title: 'copy 复制', path:'notice/copy'},
                             ]
                         },
                         // 每加一个菜单需要在这里也新增一下
